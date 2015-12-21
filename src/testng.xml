@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="SuiteName">
+    <listeners>
+        <!--<listener class-name="org.ExtentReporterNG" />-->
+        <listener class-name="com.MyReporter" />
+    </listeners>
+    <test name="Test" allow-return-values="true">
+        <classes>
+            <class name="com.example.BookFlight" />
+            <!--<class name="com.example.BookHotel" />-->
+            <!--<class name="com.example.FlightStatus" />-->
+            <!--<class name="com.example.SearchFlight" />-->
+            <!--<class name="com.example.TC2" />-->
+        </classes>
+    </test>
+</suite>
