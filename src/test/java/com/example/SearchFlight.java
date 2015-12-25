@@ -122,7 +122,7 @@ public class SearchFlight {
 //            System.out.println(Utility.captureScreenshot(driver, currentRun.replaceAll(" ", "")));
             test.log(LogStatus.FAIL, "Adding ScreenShot", test.addScreenCapture(Utility.captureScreenshot(driver, currentRun.replaceAll(" ", ""))));
 //            Assert.fail("<a href=\"/Selenium_Databinding/target/ExtentReport/SearchFlightfromSFOtoMAA.png\">Link to Failed ScreenShot</a>");
-            Assert.fail("%3Ca%20href%3D%94%2FSelenium_Databinding%2Ftarget%2FExtentReport%2FSearchFlightfromSFOtoMAA.png%94%3EScreen%20Shot%20Path%3C%2Fa%3E");
+            Assert.fail("e.getMessage()");
 //            test.log(LogStatus.FAIL,"Adding ScreenShot",test.addScreenCapture(Utility.captureScreenshot(driver, "M3")));
         }
     }
