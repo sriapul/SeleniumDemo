@@ -119,7 +119,7 @@ public class FlightStatus {
             test.log(LogStatus.FAIL, "Adding ScreenShot", test.addScreenCapture(Utility.captureScreenshot(driver, currentRun.replaceAll(" ", ""))));
 //            test.log(LogStatus.FAIL,"Adding ScreenShot",test.addScreenCapture(Utility.captureScreenshot(driver, "M3")));
 //            Assert.fail("<a href=\"/Selenium_Databinding/target/ExtentReport/SearchFlightfromSFOtoMAA.png\">Link to Failed ScreenShot</a>");
-            Assert.fail("e.getMessage()");
+            Assert.fail(e.getMessage());
 
         }
     }
