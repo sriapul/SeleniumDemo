@@ -7,9 +7,9 @@
     <test name="Test" allow-return-values="true">
         <classes>
             <class name="com.example.BookFlight" />
-            <!--<class name="com.example.BookHotel" />-->
-            <!--<class name="com.example.FlightStatus" />-->
-            <!--<class name="com.example.SearchFlight" />-->
+            <class name="com.example.BookHotel" />
+            <class name="com.example.FlightStatus" />
+            <class name="com.example.SearchFlight" />
             <!--<class name="com.example.TC2" />-->
         </classes>
     </test>
